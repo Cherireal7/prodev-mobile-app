@@ -101,7 +101,7 @@ export default function Index() {
 
                 <TouchableOpacity style={styles.transparentButton}>
                   <Text style={styles.textSmall}>
-                    <Link href="/Signin">Sign In</Link>
+                    <Link href="/signin">Sign In</Link>
                   </Text>
                 </TouchableOpacity>
               </View>
