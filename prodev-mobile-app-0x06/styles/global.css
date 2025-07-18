@@ -1,0 +1,24 @@
+/* styles/global.css */
+
+/* Import Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-white text-black;
+}
+
+/* Example of overriding a Tailwind class */
+.text-title {
+  @apply text-4xl font-bold text-gray-800;
+}
+
+.btn-primary {
+  @apply bg-[#34967C] text-white px-4 py-2 rounded-md font-semibold;
+}
+
+.btn-secondary {
+  @apply border border-gray-300 px-4 py-2 rounded-md text-gray-800;
+}
